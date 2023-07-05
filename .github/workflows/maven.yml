@@ -35,4 +35,4 @@ jobs:
           distribution: 'adopt'
           cache: maven
       - name: Build with Maven
-        run: mvn clean -Dpre-commit apache-rat:check test-compile -Dlicense.skip=false -s .m2/settings.xml -pl src/spark-project/kylin-soft-affinity-cache -am
+        run: mvn clean test-compile -s .m2/settings.xml -Dpre-commit apache-rat:check -Dlicense.skip=false
