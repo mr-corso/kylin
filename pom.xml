@@ -340,6 +340,7 @@
 
         <!-- JVM Args for Testing -->
         <argLine>-Xms2G -Xmx8G</argLine>
+        <surefireArgLine/>
 
         <!-- Apache POI -->
         <poi.version>4.1.2</poi.version>
