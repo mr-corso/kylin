@@ -3549,11 +3549,6 @@
                         <enabled>false</enabled>
                     </snapshots>
                 </repository>
-                <repository>
-                    <id>public.repo.hortonworks.com</id>
-                    <name>Public Hortonworks Maven Repo</name>
-                    <url>https://repo.hortonworks.com/content/groups/public/</url>
-                </repository>
             </repositories>
         </profile>
         <profile>
